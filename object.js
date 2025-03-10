@@ -4,6 +4,7 @@ for (const value of Object.values(room)) {
     console.log(value)
 }
 console.log(typeof room['big'])
+console.log(room['tv'].length)
 room['tv'] = room['tv'].toUpperCase()
 console.log(room['tv'])
 delete room.big
